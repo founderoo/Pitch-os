@@ -14,7 +14,7 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Onboarding from "./pages/Onboarding";
 import AboutUs from "./pages/about"; // ✅ Correct lowercase file + correct component name
-import PrivacyPolicy from "./pages/privacypolicy";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
 import Testimonials from "./pages/Testimonials";
 import Integrations from "./pages/Integrations";
