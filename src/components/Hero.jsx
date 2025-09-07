@@ -1,17 +1,4 @@
-// import React from 'react'
-// import { Link, useNavigate } from 'react-router-dom'
-// import { auth } from '../firebase'
-// import { ArrowRight, ChevronRight, Menu, X } from 'lucide-react'
-// import { Button } from '@/components/ui/button'
-// import { AnimatedGroup } from '@/components/ui/animated-group'
-// import { cn } from '@/lib/utils'
-// import { motion } from "framer-motion";
-// import { useState, useMemo, useEffect } from 'react'
-// import dashboard from '../assets/dashboard.jpg'
-// import dark from '../assets/dark.png'
 
-// const transitionVariants = {
-//     item: {
 //         hidden: {
 //             opacity: 0,
 //             filter: 'blur(12px)',
