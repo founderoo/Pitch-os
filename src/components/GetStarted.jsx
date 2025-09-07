@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { cn } from "@/lib/utils"
 
-// Demo data
 const defaultFeatures = [
   {
     step: "Step 1",
