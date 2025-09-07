@@ -190,7 +190,6 @@ export function FeatureSteps({
           </div>
         </div>
 
-        {/* Desktop Layout */}
         <div className="hidden lg:grid lg:grid-cols-2 gap-12 items-stretch">
           <div className="space-y-3 flex-1">
             {features.map((feature, index) => (
