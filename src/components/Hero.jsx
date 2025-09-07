@@ -1,34 +1,4 @@
-ssName="text-gray-700 font-semibold">Funded</span>
-//                                             <br />
-//                                             {/* Adjusted height for mobile dynamic text */}
-//                                             <span className="relative flex w-full justify-center overflow-hidden text-center h-10 sm:h-14 md:h-20 pb-6 md:pb-6 pt-2 md:pt-2">
-//                                                 &nbsp;
-//                                                 {titles.map((title, index) => (
-//                                                     <motion.span
-//                                                         key={index}
-//                                                         className="absolute font-semibold text-purple-600 hover:text-purple-700 transition-colors"
-//                                                         initial={{ opacity: 0, y: "-50" }}
-//                                                         transition={{ type: "spring", stiffness: 50 }}
-//                                                         animate={
-//                                                             titleNumber === index
-//                                                                 ? {
-//                                                                     y: 0,
-//                                                                     opacity: 1,
-//                                                                 }
-//                                                                 : {
-//                                                                     y: titleNumber > index ? -100 : 100,
-//                                                                     opacity: 0,
-//                                                                 }
-//                                                         }
-//                                                     >
-//                                                         {title}
-//                                                     </motion.span>
-//                                                 ))}
-//                                             </span>
-//                                         </h1>
-//                                     </div>
-
-//                                     {/* Adjusted margin-top and font size for mobile paragraph */}
+n-top and font size for mobile paragraph */}
 //                                     <p className="mx-auto mt-8 max-w-2xl text-balance text-base sm:text-lg text-gray-600">
 //                                         From idea to investment, PitchMaster leverages AI to make your pitch irresistible. Get funded faster, with absolute confidence.
 //                                     </p>
