@@ -1,23 +1,4 @@
- 1.5,
-//             },
-//         },
-//     },
-// }
-
-// export function HeroSection() {
-//     const navigate = useNavigate();
-//     const [titleNumber, setTitleNumber] = useState(0);
-//     const titles = useMemo(
-//         () => ["with vision", "& showcased", "effortlessly"],
-//         []
-//     );
-
-//     useEffect(() => {
-//         const timeoutId = setTimeout(() => {
-//             if (titleNumber === titles.length - 1) {
-//                 setTitleNumber(0);
-//             } else {
-//                 setTitleNumber(titleNumber + 1);
+(titleNumber + 1);
 //             }
 //         }, 2000);
 //         return () => clearTimeout(timeoutId);
