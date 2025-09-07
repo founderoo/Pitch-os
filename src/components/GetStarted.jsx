@@ -39,7 +39,7 @@ export function FeatureSteps({
   const [currentFeature, setCurrentFeature] = useState(0)
   const [progress, setProgress] = useState(0)
 
-  // Early return if no features provided
+
   if (!features || features.length === 0) {
     return (
       <div className={cn("p-8 md:p-12 bg-gradient-to-br from-amber-50 via-stone-100 to-amber-50", className)} style={{ backgroundColor: '#F5F2E8' }}>
