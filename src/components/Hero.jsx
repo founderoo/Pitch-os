@@ -1,36 +1,4 @@
-
-//                             className="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,#F5F2E8_75%)]" />
-//                         {/* Adjusted max-w and px for overall padding */}
-//                         <div className="mx-auto max-w-full px-8 sm:px-12 xl:px-16">
-//                             {/* Mobile version (unchanged) */}
-//                             <div className="text-center sm:mx-auto lg:mr-auto lg:hidden">
-//                                 <AnimatedGroup variants={transitionVariants}>
-//                                     <Link
-//                                         href="#link"
-//                                         className="hover:bg-purple-100 hover:border-yellow-500/80 hover:shadow-yellow-500/20 bg-white/80 group mx-auto flex w-fit items-center gap-4 rounded-full border border-purple-200 p-1 pl-4 shadow-md shadow-purple-200/50 transition-all duration-300 backdrop-blur-sm">
-//                                         <span className="text-gray-700 text-sm">Make Your Pitch Now!</span>
-//                                         <span
-//                                             className="block h-4 w-0.5 border-l border-purple-300 bg-purple-300"></span>
-
-//                                         <div
-//                                             className="bg-purple-200 group-hover:bg-yellow-400 group-hover:border-yellow-500 border border-purple-300 size-6 overflow-hidden rounded-full duration-500 transition-all">
-//                                             <div
-//                                                 className="flex w-12 -translate-x-1/2 duration-500 ease-in-out group-hover:translate-x-0">
-//                                                 <span className="flex size-6">
-//                                                     <ArrowRight className="m-auto size-3 text-purple-600 group-hover:text-white transition-colors" />
-//                                                 </span>
-//                                                 <span className="flex size-6">
-//                                                     <ArrowRight className="m-auto size-3 text-purple-600 group-hover:text-white transition-colors" />
-//                                                 </span>
-//                                             </div>
-//                                         </div>
-//                                     </Link>
-//                                     <div className="mx-auto mt-8 max-w-2xl text-balance text-lg">
-//                                         {/* Adjusted font sizes for mobile h1 */}
-//                                         <h1 className="text-3xl sm:text-4xl md:text-6xl max-w-2xl tracking-tighter text-center font-regular">
-//                                             <span className="text-gray-700">Pitches That Get</span>
-//                                             <br />
-//                                             <span className="text-gray-700 font-semibold">Funded</span>
+ssName="text-gray-700 font-semibold">Funded</span>
 //                                             <br />
 //                                             {/* Adjusted height for mobile dynamic text */}
 //                                             <span className="relative flex w-full justify-center overflow-hidden text-center h-10 sm:h-14 md:h-20 pb-6 md:pb-6 pt-2 md:pt-2">
