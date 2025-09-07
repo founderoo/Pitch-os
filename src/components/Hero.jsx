@@ -1,30 +1,4 @@
- {
-//                                     visible: {
-//                                         transition: {
-//                                             delayChildren: 1,
-//                                         },
-//                                     },
-//                                 },
-//                                 item: {
-//                                     hidden: {
-//                                         opacity: 0,
-//                                         y: 20,
-//                                     },
-//                                     visible: {
-//                                         opacity: 1,
-//                                         y: 0,
-//                                         transition: {
-//                                             type: 'spring',
-//                                             bounce: 0.3,
-//                                             duration: 2,
-//                                         },
-//                                     },
-//                                 },
-//                             }}
-//                             className="absolute inset-0 -z-20">
-//                         </AnimatedGroup>
-//                         <div
-//                             aria-hidden
+
 //                             className="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,#F5F2E8_75%)]" />
 //                         {/* Adjusted max-w and px for overall padding */}
 //                         <div className="mx-auto max-w-full px-8 sm:px-12 xl:px-16">
