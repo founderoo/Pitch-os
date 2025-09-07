@@ -73,7 +73,7 @@ export function FeatureSteps({
           {title}
         </h2>
 
-        {/* Mobile Layout */}
+       
         <div className="lg:hidden space-y-6">
        
           <div className="relative h-[200px] sm:h-[250px] w-full overflow-hidden rounded-xl bg-white shadow-lg border-2 border-gray-200">
