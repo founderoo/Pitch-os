@@ -97,7 +97,7 @@ export function FeatureSteps({
                 ))}
             </AnimatePresence>
 
-            {/* Progress indicator */}
+         
             <div className="absolute bottom-3 left-3 right-3">
               <div className="flex gap-1.5">
                 {features.map((_, index) => (
