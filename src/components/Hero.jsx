@@ -377,7 +377,7 @@ export function HeroSection() {
                                             alt="PitchOS Dashboard - Dark Mode"
                                             loading="lazy"
                                         />
-                                        {/* Light mode image */}
+                                      
                                         <img
                                             className="aspect-[16/9] w-full relative rounded-xl sm:rounded-2xl border border-purple-200 hover:border-yellow-500/30 dark:hidden transition-all duration-500 hover:shadow-2xl hover:shadow-yellow-500/20"
                                             src={dashboard}
