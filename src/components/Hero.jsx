@@ -161,8 +161,7 @@ export function HeroSection() {
                                         From idea to investment, PitchMaster leverages AI to make your pitch irresistible. Get funded faster, with absolute confidence.
                                     </p>
                                 </AnimatedGroup>
-
-                                {/* Adjusted margin-top for mobile button group */}
+ {/* Adjusted margin-top for mobile button group */}
                                 <AnimatedGroup
                                     variants={{
                                         container: {
