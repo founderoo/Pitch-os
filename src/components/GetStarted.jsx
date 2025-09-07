@@ -126,7 +126,7 @@ export function FeatureSteps({
             </div>
           </div>
 
-          {/* Steps List - Below image on mobile */}
+          
           <div className="space-y-3">
             {features.map((feature, index) => (
               <motion.div
