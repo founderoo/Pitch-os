@@ -75,7 +75,7 @@ export function FeatureSteps({
 
         {/* Mobile Layout */}
         <div className="lg:hidden space-y-6">
-          {/* Image Container - Fixed position on mobile */}
+       
           <div className="relative h-[200px] sm:h-[250px] w-full overflow-hidden rounded-xl bg-white shadow-lg border-2 border-gray-200">
             <AnimatePresence mode="wait">
               {features.map((feature, index) =>
