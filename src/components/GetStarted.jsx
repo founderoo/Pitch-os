@@ -287,7 +287,7 @@ export function FeatureSteps({
               </div>
             </div>
 
-            {/* Step indicator overlay */}
+       
             <div className="absolute top-4 left-4">
               <div className="bg-white px-3 py-1.5 rounded-full border-2 border-purple-500 shadow-sm">
                 <span className="text-sm font-semibold text-purple-600">
