@@ -1,12 +1,4 @@
 
-// const TESTIMONIALS = [
-//   {
-//     name: "Aarav Singh",
-//     role: "Startup Founder",
-//     quote:
-//       "PitchOS made our pitch deck journey seamless and professional. The AI suggestions were spot-on and saved us days of work.",
-//     image: aaravImg,
-//   },
 //   {
 //     name: "Prisha Mehta",
 //     role: "Product Manager",
