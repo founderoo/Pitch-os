@@ -1,12 +1,5 @@
 
 //   {
-//     name: "Prisha Mehta",
-//     role: "Product Manager",
-//     quote:
-//       "We loved how quickly we could put together a stunning deck. Investors specifically complimented our clarity and flow!",
-//     image: prishaImg,
-//   },
-//   {
 //     name: "Rahul Sharma",
 //     role: "Marketing Lead",
 //     quote:
