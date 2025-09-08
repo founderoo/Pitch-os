@@ -252,4 +252,5 @@ const Tutorial = ({ steps, isOpen, onClose, onComplete }) => {
   );
 };
 
+
 export default Tutorial;
