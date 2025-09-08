@@ -37,7 +37,7 @@ const Tutorial = ({ steps, isOpen, onClose, onComplete }) => {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
       const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
 
-      // Mobile positioning - always center bottom or top
+
       if (isMobile) {
         const tooltipWidth = Math.min(280, window.innerWidth - 32);
         const tooltipHeight = 200;
