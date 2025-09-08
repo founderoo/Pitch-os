@@ -43,7 +43,7 @@ const Tutorial = ({ steps, isOpen, onClose, onComplete }) => {
         const tooltipHeight = 200;
         const centerX = window.innerWidth / 2 - tooltipWidth / 2;
         
-        // Check if there's space below the element
+        
         const spaceBelow = window.innerHeight - rect.bottom;
         const spaceAbove = rect.top;
         
