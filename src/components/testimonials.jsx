@@ -1,9 +1,3 @@
-// import React from "react";
-
-// // Dummy image imports; replace with your assets
-// import aaravImg from "../assets/aarav.jpg";
-// import prishaImg from "../assets/prisha.jpg";
-// import rahulImg from "../assets/rahul.jpg";
 
 // const TESTIMONIALS = [
 //   {
