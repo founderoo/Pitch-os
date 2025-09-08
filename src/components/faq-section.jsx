@@ -157,7 +157,7 @@ export const Component = () => {
       className="w-full py-20 lg:py-40 bg-gradient-to-br from-amber-50 via-stone-100 to-amber-50"
       style={{ backgroundColor: "#F5F2E8" }}
     >
-      {/* Background visuals */}
+     
       <div
         aria-hidden
         className="z-[1] absolute inset-0 pointer-events-none isolate opacity-30 contain-strict hidden lg:block"
@@ -175,7 +175,7 @@ export const Component = () => {
           </p>
         </header>
 
-        {/* Tabs */}
+      
         <div className="flex justify-center sticky top-2 mb-8 z-[3]">
           <Tabs
             defaultValue="general"
@@ -189,7 +189,6 @@ export const Component = () => {
           </Tabs>
         </div>
 
-        {/* FAQ Accordion */}
         {activeView && FAQ_SECTIONS[activeView] ? (
           <FAQAccordion items={FAQ_SECTIONS[activeView].items} />
         ) : (
