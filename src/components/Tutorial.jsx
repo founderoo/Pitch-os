@@ -48,26 +48,26 @@ const Tutorial = ({ steps, isOpen, onClose, onComplete }) => {
         const spaceAbove = rect.top;
         
         if (spaceBelow >= tooltipHeight + 40) {
-          // Position below
+          
           setTooltipPosition({
             top: rect.bottom + scrollTop + 16,
             left: Math.max(16, centerX)
           });
         } else if (spaceAbove >= tooltipHeight + 40) {
-          // Position above
+        
           setTooltipPosition({
             top: rect.top + scrollTop - tooltipHeight - 16,
             left: Math.max(16, centerX)
           });
         } else {
-          // Position at bottom of screen if no space
+
           setTooltipPosition({
             top: window.innerHeight - tooltipHeight - 80 + scrollTop,
             left: Math.max(16, centerX)
           });
         }
       } else {
-        // Desktop positioning (original logic)
+       
         let top, left;
         const tooltipWidth = 320;
         const tooltipHeight = 200;
@@ -94,7 +94,7 @@ const Tutorial = ({ steps, isOpen, onClose, onComplete }) => {
             left = rect.left + scrollLeft + (rect.width / 2) - (tooltipWidth / 2);
         }
 
-        // Keep tooltip within viewport bounds
+        
         const padding = 20;
         left = Math.max(padding, Math.min(window.innerWidth - tooltipWidth - padding, left));
         top = Math.max(padding, top);
@@ -102,7 +102,7 @@ const Tutorial = ({ steps, isOpen, onClose, onComplete }) => {
         setTooltipPosition({ top, left });
       }
 
-      // Highlight the target element
+      
       targetElement.style.position = 'relative';
       targetElement.style.zIndex = '1001';
       targetElement.style.boxShadow = '0 0 0 4px rgba(59, 130, 246, 0.5), 0 0 0 2px white';
@@ -157,14 +157,14 @@ const Tutorial = ({ steps, isOpen, onClose, onComplete }) => {
 
   return (
     <>
-      {/* Overlay */}
+
       <div 
         ref={overlayRef}
         className="fixed inset-0 bg-black bg-opacity-50 z-[1000]"
         style={{ pointerEvents: 'none' }}
       />
       
-      {/* Tooltip */}
+     
       <div
         className={`fixed z-[1002] bg-white dark:bg-gray-800 rounded-lg shadow-2xl border border-gray-200 dark:border-gray-700 ${
           isMobile ? 'p-4 mx-4' : 'p-6'
@@ -175,7 +175,7 @@ const Tutorial = ({ steps, isOpen, onClose, onComplete }) => {
           width: isMobile ? `${Math.min(280, window.innerWidth - 32)}px` : '320px'
         }}
       >
-        {/* Header */}
+        
         <div className={`flex items-center justify-between ${isMobile ? 'mb-3' : 'mb-4'}`}>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
@@ -191,7 +191,7 @@ const Tutorial = ({ steps, isOpen, onClose, onComplete }) => {
           </button>
         </div>
 
-        {/* Content */}
+  
         <div className={isMobile ? 'mb-4' : 'mb-6'}>
           <h3 className={`font-semibold text-gray-900 dark:text-white mb-2 ${
             isMobile ? 'text-base' : 'text-lg'
