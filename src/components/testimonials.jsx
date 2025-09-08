@@ -1,13 +1,4 @@
 
-//   {
-//     name: "Rahul Sharma",
-//     role: "Marketing Lead",
-//     quote:
-//       "The templates, guidance, and real-time feedback in PitchOS boosted our team's confidence. Highly recommend it to every startup.",
-//     image: rahulImg,
-//   },
-// ];
-
 // const Testimonials = () => (
 //   <section className="py-20 bg-gray-50 min-h-screen flex flex-col items-center">
 //     <div className="mb-10 text-center">
