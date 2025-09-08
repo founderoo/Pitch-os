@@ -205,7 +205,7 @@ const Tutorial = ({ steps, isOpen, onClose, onComplete }) => {
           </p>
         </div>
 
-        {/* Progress bar */}
+        
         <div className={isMobile ? 'mb-3' : 'mb-4'}>
           <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-1">
             <div 
