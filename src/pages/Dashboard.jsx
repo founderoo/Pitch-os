@@ -305,8 +305,6 @@ const Dashboard = () => {
                 </div>
               </CardContent>
             </Card>
-
-            {/* Recent Activity */}
             <Card>
               <CardHeader>
                 <CardTitle>Recent Activity</CardTitle>
@@ -330,7 +328,6 @@ const Dashboard = () => {
           </div>
         </main>
       </div>
-
       <ProfileSection
         user={user}
         isOpen={profileOpen}
@@ -340,5 +337,4 @@ const Dashboard = () => {
     </div>
   );
 };
-
 export default Dashboard;
