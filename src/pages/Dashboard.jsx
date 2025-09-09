@@ -85,9 +85,7 @@ const Dashboard = () => {
       </div>
     );
   }
-
   if (!user) return null;
-
   const handleLogout = async () => {
     try {
       await logout();
