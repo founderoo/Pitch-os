@@ -126,7 +126,6 @@ const Dashboard = () => {
     { action: "AI enhancement completed", time: "1 day ago" },
     { action: "New funding opportunity", time: "2 days ago" },
   ];
-
   return (
     <div className="min-h-screen bg-background flex">
       <Tutorial
