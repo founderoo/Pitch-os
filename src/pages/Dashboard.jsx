@@ -142,10 +142,10 @@ const Dashboard = () => {
         />
       )}
 
-      {/* Sidebar */}
+
       <div className={`fixed inset-y-0 left-0 z-50 w-64 bg-card border-r border-border transform transition-transform duration-300 ease-in-out lg:translate-x-0 lg:fixed lg:inset-y-0 ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className="flex flex-col h-screen">
-          {/* Header with clickable logo */}
+          
           <div className="flex items-center justify-between p-4 border-b border-gray-200">
             <div
               className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition"
