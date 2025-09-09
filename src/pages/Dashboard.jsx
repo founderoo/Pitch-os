@@ -200,7 +200,7 @@ const Dashboard = () => {
         </div>
       </div>
 
-      {/* Main Content */}
+     
       <div className="flex-1 flex flex-col min-w-0 lg:ml-64">
         {/* Header */}
         <header className="bg-card border-b border-border px-4 lg:px-6 py-4">
