@@ -180,7 +180,7 @@ const Dashboard = () => {
             </nav>
           </div>
 
-          {/* Footer */}
+          
           <div className="p-4 border-t border-gray-200 flex-shrink-0">
             <div
               className="flex items-center gap-3 p-2 cursor-pointer hover:bg-muted rounded-lg transition-colors"
