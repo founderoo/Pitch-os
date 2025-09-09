@@ -42,7 +42,6 @@ const Dashboard = () => {
   const [authChecked, setAuthChecked] = useState(false);
   const [tutorialOpen, setTutorialOpen] = useState(false);
   const [profileOpen, setProfileOpen] = useState(false);
-
   const tutorialSteps = [
     {
       target: '[data-tutorial="new-pitch-btn"]',
