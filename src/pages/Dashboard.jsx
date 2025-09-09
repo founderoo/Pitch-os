@@ -246,7 +246,7 @@ const Dashboard = () => {
 
   
         <main className="flex-1 p-4 lg:p-6 space-y-6 overflow-y-auto">
-          {/* Welcome */}
+
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div>
               <h1 className="text-2xl lg:text-3xl font-bold">Welcome back, {user?.displayName || 'User'}!</h1>
@@ -257,7 +257,6 @@ const Dashboard = () => {
             </div>
           </div>
 
-          {/* Stats Grid */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6" data-tutorial="stats-grid">
             {stats.map((stat, index) => (
               <Card key={index}>
