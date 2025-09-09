@@ -134,7 +134,6 @@ const Dashboard = () => {
         onClose={() => setTutorialOpen(false)}
         onComplete={() => setTutorialOpen(false)}
       />
-
       {sidebarOpen && (
         <div
           className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden"
@@ -200,7 +199,7 @@ const Dashboard = () => {
 
      
       <div className="flex-1 flex flex-col min-w-0 lg:ml-64">
-        {/* Header */}
+      
         <header className="bg-card border-b border-border px-4 lg:px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
@@ -240,14 +239,14 @@ const Dashboard = () => {
             </div>
           </div>
 
-          {/* Mobile Search */}
+          
           <div className="relative mt-4 sm:hidden">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-4 h-4" />
             <Input type="text" placeholder="Search tools, pitches, resources..." className="pl-10" />
           </div>
         </header>
 
-        {/* Main Section */}
+  
         <main className="flex-1 p-4 lg:p-6 space-y-6 overflow-y-auto">
           {/* Welcome */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
