@@ -235,9 +235,7 @@ const Dashboard = () => {
                 <span className="hidden sm:inline">New Pitch</span>
               </Button>
             </div>
-          </div>
-
-          
+          </div>          
           <div className="relative mt-4 sm:hidden">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-4 h-4" />
             <Input type="text" placeholder="Search tools, pitches, resources..." className="pl-10" />
