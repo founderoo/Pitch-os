@@ -1,6 +1,7 @@
 import { Check, Minus, MoveRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+
 import React from "react"; 
 const pricingPlans = [
   {
