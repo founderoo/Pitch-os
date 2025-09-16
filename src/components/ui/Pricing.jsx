@@ -32,7 +32,6 @@ const features = [
   { name: "Mentorship & Guidance", basic: false, regular: false },
   { name: "Founders Copilot", basic: false, regular: false },
 ];
-
 function Pricing() {
   return (
     <div 
